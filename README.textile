@@ -4,6 +4,8 @@ tablecut extracts tables from HTML and print it out to
 standard output. Specifically, it extracts non-nested
 tables ("data tables") from the HTML.
 
+I use simple regular expressions to find the tables.
+
 h2. Usage
 
 ruby tablecut.rb URL => tables to standard output
