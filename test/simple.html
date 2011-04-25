@@ -1,0 +1,27 @@
+<table>
+  <tr><th>This table shouldnt appear</th></tr>
+  <tr>
+  <td>
+    <table>
+      <tr><th>One</th><th>Two</th></tr>
+      <tr><td>Uno</td><td>Deux</td></tr>
+      <tr><td>Onu</td><td>Erendu</td></tr>
+    </table>
+  </td>
+  </tr>
+  <tr>
+  <td>
+   <table>
+     <tr><td>Head 1</td><td>Head 2</td></tr>
+     <tr><td>Val 1</td><td>Val 2</td></tr>
+   </table>
+  </td>
+  </tr>
+</table>
+
+EXPECTED
+One two
+Uno Deux
+Onu Erendu
+Head 1 Head 2
+Val 1 Val 2
