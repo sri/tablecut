@@ -56,7 +56,7 @@ def tablecut(html)
     seen.add elt
   end
   
-  # 3. Get rid of nested tables.
+  # 3. Get rid of tables that have nesting.
   non_nested = []
   nested = []
   
