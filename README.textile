@@ -9,6 +9,7 @@ I use simple regular expressions to find the tables.
 h2. Usage
 
 ruby tablecut.rb URL => tables to standard output
+Try: ruby tablecut.rb test/simple.html
 
 h2. TODO
 

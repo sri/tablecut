@@ -4,11 +4,11 @@ require 'set'
 # Simple HTML utilities.
 class String
   def strip_html
-    self.gsub(/<[^>]*>/, '')
+    gsub(/<[^>]*>/, '')
   end
   
   def scan_tags(tag)
-    self.scan(/<#{tag}[^>]*>(.*?)<\/#{tag}>/im).flatten
+    scan(/<#{tag}[^>]*>(.*?)<\/#{tag}>/im).flatten
   end
 end
 
