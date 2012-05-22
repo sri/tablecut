@@ -1,6 +1,6 @@
 h1. tablecut
 
-tablecut extracts tables from HTML and print it out to 
+tablecut extracts tables from HTML and prints them out to 
 standard output. Specifically, it extracts non-nested
 tables ("data tables") from the HTML.
 
